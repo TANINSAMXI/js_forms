@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--<p id="text" title="simple text">-->
+<!--    Text-->
+<!--</p>-->
+
+<!--<span class="simple-text">Text 1</span>-->
+<!--<span class="simple-text">Text 2</span>-->
+<!--<span class="simple-text">Text 3</span>-->
+<!--onsubmit="return checkForm(this)"-->
+<!--https://www.youtube.com/watch?v=1nzH6WCEonQ&t=1653s-->
+
+<form id="main-form"  method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" placeholder="Name" id="name"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" placeholder="Password" id="password"><br><br>
+    <label for="repass">Repeat Password:</label>
+    <input type="password" name="repass" placeholder="Repeat Password" id="repass"><br><br>
+    <span>State:</span>
+    <input type="radio" name="state" id="male" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" name="state" id="female" value="Female">
+    <label for="female">Female</label><br><br>
+    <div id="error" style="color: red"></div>
+    <input type="submit" name="submit" value="Ready">
+</form>
+
+
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
